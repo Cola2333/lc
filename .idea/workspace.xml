@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8db4f57-f8c5-40ff-83ba-13b159ecca9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/knapsackProblemREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/knapsackProblemREADME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588149794280</updated>
       <workItem from="1588149795699" duration="409000" />
-      <workItem from="1588150346496" duration="271000" />
+      <workItem from="1588150346496" duration="785000" />
     </task>
     <servers />
   </component>

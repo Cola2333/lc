@@ -1,5 +1,6 @@
 package USC570_HighestPossibleScore;
 /*
+* 和USC570_OpeningChargingStation基本一致 我感觉 那道题的代码更加规范
 * 如果题目要求中增加一个上限W 那么这个题就会变成一个不可重复选的背包问题
 *
 * 注意 如果想做题目i 那么题目i - 1 到 题目i - wi都不能做 这种想法是错误的
@@ -15,11 +16,11 @@ public class Solution2 {
         dp[0] = 0;
         dp[1] = p[0];
         for (int i = 2; i <= n ; i ++) {
-            dp[i] = p[i - 1]; // 如果前面的问题都不能做 (这行代码其实可以和最后的合并)
+            dp[i] = p[i - 1]; // 如果前面的问题都不能做 (这行代码其实可以写在最后)
             for (int j = i - 1; j >= 1; j --) {
                 if (j + w[j - 1] < i) {
-                    dp[i] = Math.max(dp[i], dp[j] + p[i - 1]); // 做此题能获得的最高分
-                    break; //似乎是可以break的 因为离的最近的dp[j]必然是最优的
+                    dp[i] = Math.max(dp[i], dp[j] + p[i - 1]); // 做此题能获得的最高分 似乎不用加Max
+                    break; //似乎是可以break的 因为离的最近的dp[j]必然是最优的 因此 上一行代码也不用加Max
                 }
             }
             dp[i] = Math.max(dp[i], dp[i - 1]); //做此题和不做此题比较

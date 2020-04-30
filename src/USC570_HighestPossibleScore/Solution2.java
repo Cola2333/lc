@@ -18,10 +18,11 @@ public class Solution2 {
             dp[i] = p[i - 1]; // 如果前面的问题都不能做 (这行代码其实可以和最后的合并)
             for (int j = i - 1; j >= 1; j --) {
                 if (j + w[j - 1] < i) {
-                    dp[i] = Math.max(dp[i], dp[j] + p[i - 1]); // 做此题
+                    dp[i] = Math.max(dp[i], dp[j] + p[i - 1]); // 做此题能获得的最高分
+                    break; //似乎是可以break的 因为离的最近的dp[j]必然是最优的
                 }
             }
-            dp[i] = Math.max(dp[i], dp[i - 1]); //不做此题
+            dp[i] = Math.max(dp[i], dp[i - 1]); //做此题和不做此题比较
         }
         return dp[n];
     }

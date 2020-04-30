@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8db4f57-f8c5-40ff-83ba-13b159ecca9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/USC570_NumberOfWaysByThrowDice/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/USC570_NumberOfWaysByThrowDice/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/USC570_NumberOfWaysByThrowDice/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/USC570_NumberOfWaysByThrowDice/question.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/USC570_HighestPossibleScore/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/USC570_HighestPossibleScore/Solution2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,7 @@
       <updated>1588149794280</updated>
       <workItem from="1588149795699" duration="409000" />
       <workItem from="1588150346496" duration="785000" />
-      <workItem from="1588151137921" duration="6819000" />
+      <workItem from="1588151137921" duration="8579000" />
     </task>
     <servers />
   </component>

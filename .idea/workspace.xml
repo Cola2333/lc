@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8db4f57-f8c5-40ff-83ba-13b159ecca9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/USC570_NumberOfWaysByThrowDice/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/USC570_NumberOfWaysByThrowDice/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/USC570_NumberOfWaysByThrowDice/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/USC570_NumberOfWaysByThrowDice/question.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +43,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="USC570_NumberOfWaysByThrowDice" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WJJ\java\IDEAIU-workspace\lc" />
     </key>
@@ -80,7 +94,7 @@
       <updated>1588149794280</updated>
       <workItem from="1588149795699" duration="409000" />
       <workItem from="1588150346496" duration="785000" />
-      <workItem from="1588151137921" duration="678000" />
+      <workItem from="1588151137921" duration="6819000" />
     </task>
     <servers />
   </component>
